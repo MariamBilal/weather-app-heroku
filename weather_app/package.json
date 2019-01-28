@@ -1,0 +1,30 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariamBilal/weather-app-heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariamBilal/weather-app-heroku/issues"
+  },
+  "homepage": "https://github.com/MariamBilal/weather-app-heroku#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+  "engines":{
+    "node": "^9.1.0" ,
+    "npm": "^5.5.1"
+  }
+}
